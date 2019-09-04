@@ -1,0 +1,151 @@
+html body{
+    background-color:blueviolet;
+}
+h1{
+    padding-top: 0%;
+    color:white;
+    
+}
+p{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-size:20px;
+ font-weight:bold;
+ /* background-color: blanchedalmond; */
+ color: black;
+ padding: 10px;
+}
+p1{
+   color:black;
+   background-color: whitesmoke;
+}
+   nav>ul>li>a{
+       padding:20px;
+       margin-right:2px;
+       text-transform:uppercase;
+       color:white;
+       text-align:right;
+       display:inline-block;
+   }
+   .home{
+       display: flex;
+       float:right;
+       border: 2px solid white;
+       border-radius: 5px;
+       clear: both;
+       
+       
+   }
+   .row,.column {
+       border: 1px solid white;
+   }
+   .row {
+       flex-wrap: wrap;
+   }
+   figure{
+       justify-content: center;
+       font-size: 25px;
+       color: white;
+       text-align: center;
+
+   }
+   h3 {
+       justify-content: center;
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+       color: white;
+   }
+
+    
+nav{
+  max-width:960px;
+  margin:0 auto;
+  padding:10px 0;
+  margin-right:0%;
+  margin-right: 2px; 
+}
+ul{
+  text-align:right;
+  list-style: none;
+  text-align: right;
+
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+li>a:hover{
+  box-shadow:0 0 10px rgba(0,0,0,0.1),inset 0 0 1px rgba(255,255,255,0.6);
+  color:rgba(0,35,122,0.7);
+}
+nav:hover{
+  box-shadow:0,0,1px rgba(255,255,255,0.6)
+}
+/* .footer{
+position: relative;
+left:2px;
+bottom:2px;
+width:100%; 
+background-color: aqua;
+color:royalblue
+} */
+about{
+  background-color: blanchedalmond;
+  color: red;
+  padding: 0em;
+}
+.foundation{
+  color:red;
+  width: 12px;  
+  height:13px;
+  display:flex;
+  text-shadow:2px 2px 1px white;
+}
+p{
+ color:white;
+ padding:19px;
+
+}
+#tablefare{
+    display: flex;
+    width:100%;
+    margin-left:40px;
+    border-collapse:collapse;
+ 
+ color:black;
+} 
+tr,td{
+ background-color:#f2f2f2;
+ border: 2px solid;
+}
+
+th:hover{
+padding-top:12px;
+padding-bottom:12px;
+text-align:left;
+color:white;
+}
+
+input{
+    position: relative;
+    left:20px;}
+.fare {
+    width: 100%;
+    padding-left: 30%;
+    font-size: 28px;
+
+}
+.footer{
+    /* position: relative; */
+    display: flex;
+    width:100%; 
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    color:black;
+    clear: both;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    }
