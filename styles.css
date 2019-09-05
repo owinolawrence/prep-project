@@ -1,9 +1,16 @@
 html body{
-    background-color:blueviolet;
+    background-color:#556B2F;
+}
+h{
+  padding-top: 0%;
+   color:black;
+   font-display:bold;
 }
 h1{
     padding-top: 0%;
-    color:white;
+    color:black;
+    font-display:bold;
+    text-align:center;
     
 }
 p{
@@ -16,15 +23,16 @@ p{
 }
 p1{
    color:black;
-   background-color: whitesmoke;
+   background-color:rgb(255,160,122);
 }
    nav>ul>li>a{
        padding:20px;
        margin-right:2px;
        text-transform:uppercase;
-       color:white;
+       color:black;
        text-align:right;
        display:inline-block;
+       background-color:white;
    }
    .home{
        display: flex;
@@ -37,9 +45,31 @@ p1{
    }
    .row,.column {
        border: 1px solid white;
+       display:flex;
+      
+       
    }
+   .row1,.column1 {
+       border: 1px solid white;
+       display:flex
+     
+   }
+       
+   .booking {
+     clear:both;
+     float:left;
+     
+   }
+   .hotel{
+     /*clear:both;*/
+     float:left;
+     margin-left:700px;
+   }
+   
    .row {
        flex-wrap: wrap;
+       flex-direction:row;
+       display:flex;
    }
    figure{
        justify-content: center;
@@ -53,16 +83,20 @@ p1{
        text-align: center;
        font-family: 'Times New Roman', Times, serif;
        font-size: 25px;
-       color: white;
+       color:black;
    }
 
-    
+    #contacts{
+      text-align:center;
+      
+    }
 nav{
   max-width:960px;
   margin:0 auto;
   padding:10px 0;
   margin-right:0%;
   margin-right: 2px; 
+  
 }
 ul{
   text-align:right;
@@ -81,7 +115,7 @@ li>a:hover{
   color:rgba(0,35,122,0.7);
 }
 nav:hover{
-  box-shadow:0,0,1px rgba(255,255,255,0.6)
+  box-shadow:0,0,1px rgb(255,255,255,0.6);
 }
 /* .footer{
 position: relative;
@@ -108,7 +142,7 @@ p{
  padding:19px;
 
 }
-#tablefare{
+#table fare{
     display: flex;
     width:100%;
     margin-left:40px;
@@ -131,7 +165,7 @@ color:white;
 input{
     position: relative;
     left:20px;}
-.fare {
+.fare{
     width: 100%;
     padding-left: 30%;
     font-size: 28px;
@@ -142,10 +176,53 @@ input{
     display: flex;
     width:100%; 
     height: 100px;
-    background-color:rgb(255, 255, 255);
+    background-color:black;
     color:black;
     clear: both;
     padding-top: 10px;
     margin-top: 10px;
-    
+    position:static;
     }
+    
+   .hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.fa {
+  color: blue;
+  font-size:30px;
+  line-height: 2rem;
+  
+}
+.core>ol>li{
+  float:left;
+}
+.icons{
+  text-align:center;
+  size:125;
+
+}
+.languages{
+  text-align:right;
+}
+.guiding{
+  float:right;
+}
+.mapouter{position:relative;text-align:right;height:500px;width:1366px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1366px;}
+
+#one {
+  float: left;
+  
+}
+
+ #two {
+   float: right;
+ }
